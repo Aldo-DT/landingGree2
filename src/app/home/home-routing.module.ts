@@ -70,9 +70,9 @@ const routes: Routes = [
     path: 'shoes',
     component: ShoesComponent
   },
-  {
-    path: 'bags',
-    component: BagsComponent
+   {
+     path: 'bags',
+     component: BagsComponent
   },
   {
     path: 'marijuana',

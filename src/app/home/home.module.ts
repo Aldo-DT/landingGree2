@@ -40,9 +40,9 @@ import { CollectionComponent } from './widgets/collection/collection.component';
     ElectronicsComponent,
     PetsComponent,
     GymComponent,
-    ToolsComponent,
+     ToolsComponent,
     ShoesComponent,
-    BagsComponent,
+     BagsComponent,
     MarijuanaComponent,
     // Widgest Components
     SliderComponent,

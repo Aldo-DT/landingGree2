@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ProductSlider } from '../../../shared/data/slider';
 import { Product } from '../../../shared/classes/product';
 import { ProductService } from '../../../shared/services/product.service';
+import { DomSanitizer } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-fashion-one',
@@ -13,7 +14,8 @@ export class FashionOneComponent implements OnInit {
   public products: Product[] = [];
   public productCollections: any[] = [];
   
-  constructor(public productService: ProductService) {
+  constructor(private _sanitizer:DomSanitizer,
+    public productService: ProductService) {
     this.productService.getProducts.subscribe(response => {
       this.products = response.filter(item => item.type == 'fashion');
       // Get Product Collection
@@ -25,6 +27,7 @@ export class FashionOneComponent implements OnInit {
       })
     });
   }
+  
 
   public ProductSliderConfig: any = ProductSlider;
 
@@ -37,6 +40,30 @@ export class FashionOneComponent implements OnInit {
     subTitle: 'Women fashion',
     image: 'assets/images/slider/2.jpg'
   }]
+  
+  // services
+  public categories = [{
+    image: 'assets/images/categories/6.jpg',
+    title: 'auto parts',
+    text:  this._sanitizer.bypassSecurityTrustHtml('<li><a href="#">Shock-resistant parts</a></li><li><a href="#">Skeleton parts</a></li><li><a href="#">Slow parts</a></li><li><a href="#">Solar-powered parts</a></li>'),
+  }, {
+    image: 'assets/images/categories/7.jpg',
+    title: 'brakes & steering',
+    text:  this._sanitizer.bypassSecurityTrustHtml('<li><a href="#">Shock-resistant parts</a></li><li><a href="#">Skeleton parts</a></li><li><a href="#">Slow parts</a></li><li><a href="#">Solar-powered parts</a></li>'),
+  }, {
+    image: 'assets/images/categories/8.jpg',
+    title: 'engine & drivetrain',
+    text:  this._sanitizer.bypassSecurityTrustHtml('<li><a href="#">Shock-resistant parts</a></li><li><a href="#">Skeleton parts</a></li><li><a href="#">Slow parts</a></li><li><a href="#">Solar-powered parts</a></li>'),
+  }, {
+    image: 'assets/images/categories/9.jpg',
+    title: 'exterior accesories',
+    text:  this._sanitizer.bypassSecurityTrustHtml('<li><a href="#">Shock-resistant parts</a></li><li><a href="#">Skeleton parts</a></li><li><a href="#">Slow parts</a></li><li><a href="#">Solar-powered parts</a></li>'),
+  }, {
+    image: 'assets/images/categories/10.jpg',
+    title: 'other parts',
+    text:  this._sanitizer.bypassSecurityTrustHtml('<li><a href="#">Shock-resistant parts</a></li><li><a href="#">Skeleton parts</a></li><li><a href="#">Slow parts</a></li><li><a href="#">Solar-powered parts</a></li>'),
+  }]
+
 
   // Collection banner
   public collections = [{
