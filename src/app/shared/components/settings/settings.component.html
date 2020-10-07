@@ -1,30 +1,30 @@
 <div class="icon-nav">
-  <ul>
-    <li class="onhover-div mobile-search search-widgets" id="search-widgets">
-      <div>
-        <img src="assets/images/icon/search.png" class="img-fluid" alt="">
-        <i class="ti-search"></i>
-      </div>
-    </li>
-    <li class="onhover-div mobile-setting">
-      <div><img src="assets/images/icon/setting.png" class="img-fluid" alt="settong">
-        <i class="ti-settings"></i></div>
-      <div class="show-div setting">
-        <h6>language</h6>
-        <ul>
-          <li *ngFor="let language of languages">
-            <a href="javascript:void(0)" (click)="changeLanguage(language.code)">{{ language.name }}</a>
-          </li>
-        </ul>
-        <h6>currency</h6>
-        <ul class="list-inline">
-          <li *ngFor="let currency of currencies">
-            <a href="javascript:void(0)" (click)="changeCurrency(currency)">{{ currency.name }}</a>
-          </li>
-        </ul>
-      </div>
-    </li>
-    <li class="onhover-div mobile-cart">
+    <ul>
+        <li class="onhover-div mobile-search search-widgets" id="search-widgets">
+            <div>
+                <img src="assets/images/icon/search.png" class="img-fluid" alt="">
+                <i class="ti-search"></i>
+            </div>
+        </li>
+        <li class="onhover-div mobile-setting">
+            <div><img src="assets/images/icon/setting.png" class="img-fluid" alt="settong">
+                <i class="ti-settings"></i></div>
+            <div class="show-div setting">
+                <h6>language</h6>
+                <ul>
+                    <li *ngFor="let language of languages">
+                        <a href="javascript:void(0)" (click)="changeLanguage(language.code)">{{ language.name }}</a>
+                    </li>
+                </ul>
+                <h6>currency</h6>
+                <ul class="list-inline">
+                    <li *ngFor="let currency of currencies">
+                        <a href="javascript:void(0)" (click)="changeCurrency(currency)">{{ currency.name }}</a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <!-- <li class="onhover-div mobile-cart">
       <div>
         <a [routerLink]="['/shop/cart']">
           <img src="assets/images/icon/cart.png" class="img-fluid" alt="">
@@ -69,6 +69,6 @@
           </div>
         </li>
       </ul>
-    </li>
-  </ul>
+    </li> -->
+    </ul>
 </div>
