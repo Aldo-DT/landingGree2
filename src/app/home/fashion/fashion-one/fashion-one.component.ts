@@ -13,7 +13,7 @@ export class FashionOneComponent implements OnInit {
 
   public products: Product[] = [];
   public productCollections: any[] = [];
-  
+
   constructor(private _sanitizer:DomSanitizer,
     public productService: ProductService) {
     this.productService.getProducts.subscribe(response => {

@@ -32,16 +32,21 @@ export class NavService {
 		this.screenWidth = window.innerWidth;
 	}
 
+	
+	// quitar menus
+	// tslint:disable-next-line: member-ordering 
 	MENUITEMS: Menu[] = [
 		{
-			title: 'home', type: 'sub', active: false, children: [
-				{
-					title: 'clothing', type: 'sub', active: false, children: [
-						{ path: '/home/fashion', title: 'fashion-01', type: 'link' },
-						{ path: '/home/fashion-2', title: 'fashion-02', type: 'link' },
-						{ path: '/home/fashion-3', title: 'fashion-03', type: 'link' }
-					]
-				},
+			title: 'PRODUCTOS', type: 'sub', active: false, children: [
+				// {
+				// 	title: 'clothing', type: 'sub', active: false, children: [
+						
+				// 	]
+				// },
+				{ path: '/home/fashion', title: 'fashion-01', type: 'link' },
+				{ path: '/home/fashion-2', title: 'fashion-02', type: 'link' },
+				{ path: '/home/fashion-3', title: 'fashion-03', type: 'link' },
+
 				{ path: '/home/vegetable', title: 'vegetable', type: 'link' },
 				{ path: '/home/watch', title: 'watch', type: 'link' },
 				{ path: '/home/furniture', title: 'furniture', type: 'link' },
@@ -57,14 +62,14 @@ export class NavService {
 			]
 		},
 		{
-			title: 'Shop', type: 'sub', active: false, children: [
+			title: 'BENEFICIOS', type: 'sub', active: false, children: [
 				{ path: '/shop/collection/left/sidebar', title: 'left-sidebar', type: 'link' },
 				{ path: '/shop/collection/right/sidebar', title: 'right-sidebar', type: 'link' },
 				{ path: '/shop/collection/no/sidebar', title: 'no-sidebar', type: 'link' }
 			]
 		},
 		{
-			title: 'Products', type: 'sub', active: false, children: [
+			title: 'DISTRIBUIDORES', type: 'sub', active: false, children: [
 				{
 					title: 'sidebar', type: 'sub', active: false, children: [
 						{ path: '/shop/product/left/sidebar/trim-dress', title: 'left-sidebar', type: 'link' },
@@ -79,7 +84,7 @@ export class NavService {
 			]
 		},
 		{
-			title: 'Features', type: 'sub', megaMenu: true, badge: true, badgeText: 'new', active: false, children: [
+			title: 'SOPORTE', type: 'sub', megaMenu: true, badge: true, badgeText: 'new', active: false, children: [
 				{
 					title: 'portfolio', type: 'sub', active: false, children: [
 						{ path: '/pages/portfolio/grid/two', title: 'portfolio-grid-2', type: 'link' },
@@ -128,7 +133,7 @@ export class NavService {
 			]
 		},
 		{
-			title: 'pages', type: 'sub', active: false, children: [
+			title: 'GREE', type: 'sub', active: false, children: [
 				{
 					title: 'account', type: 'sub', active: false, children: [
 						{ path: '/pages/wishlist', title: 'wishlist', type: 'link' },
@@ -160,16 +165,17 @@ export class NavService {
 				{ path: '/pages/faq', title: 'faq', type: 'link' }
 			]
 		},
-		{
-			title: 'blogs', type: 'sub', active: false, children: [
-				{ path: '/pages/blog/left/sidebar', title: 'left-sidebar', type: 'link' },
-				{ path: '/pages/blog/right/sidebar', title: 'right-sidebar', type: 'link' },
-				{ path: '/pages/blog/no/sidebar', title: 'no-sidebar', type: 'link' },
-				{ path: '/pages/blog/details', title: 'blog-details', type: 'link' }
-			]
-		}
+		// {
+		// 	title: 'blogs', type: 'sub', active: false, children: [
+		// 		{ path: '/pages/blog/left/sidebar', title: 'left-sidebar', type: 'link' },
+		// 		{ path: '/pages/blog/right/sidebar', title: 'right-sidebar', type: 'link' },
+		// 		{ path: '/pages/blog/no/sidebar', title: 'no-sidebar', type: 'link' },
+		// 		{ path: '/pages/blog/details', title: 'blog-details', type: 'link' }
+		// 	]
+		// }
 	];
 
+	// tslint:disable-next-line: member-ordering
 	LEFTMENUITEMS: Menu[] = [
 		{
 			title: 'clothing', type: 'sub', megaMenu: true, active: false, children: [
