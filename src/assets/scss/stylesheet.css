@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'Mundial';
+    src: url('Mundial-Demibold.woff2') format('woff2'),
+        url('Mundial-Demibold.woff') format('woff'),
+        url('Mundial-Demibold.svg#Mundial-Demibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mundial';
+    src: url('Mundial-Hair.woff2') format('woff2'),
+        url('Mundial-Hair.woff') format('woff'),
+        url('Mundial-Hair.svg#Mundial-Hair') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mundial';
+    src: url('Mundial-Light.woff2') format('woff2'),
+        url('Mundial-Light.woff') format('woff'),
+        url('Mundial-Light.svg#Mundial-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mundial';
+    src: url('Mundial-LightItalic.woff2') format('woff2'),
+        url('Mundial-LightItalic.woff') format('woff'),
+        url('Mundial-LightItalic.svg#Mundial-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mundial';
+    src: url('Mundial-Thin.woff2') format('woff2'),
+        url('Mundial-Thin.woff') format('woff'),
+        url('Mundial-Thin.svg#Mundial-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mundial';
+    src: url('Mundial-Regular.woff2') format('woff2'),
+        url('Mundial-Regular.woff') format('woff'),
+        url('Mundial-Regular.svg#Mundial-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mundial';
+    src: url('Mundial-DemiboldItalic.woff2') format('woff2'),
+        url('Mundial-DemiboldItalic.woff') format('woff'),
+        url('Mundial-DemiboldItalic.svg#Mundial-DemiboldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mundial';
+    src: url('Mundial-HairItalic.woff2') format('woff2'),
+        url('Mundial-HairItalic.woff') format('woff'),
+        url('Mundial-HairItalic.svg#Mundial-HairItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mundial';
+    src: url('Mundial-Italic.woff2') format('woff2'),
+        url('Mundial-Italic.woff') format('woff'),
+        url('Mundial-Italic.svg#Mundial-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mundial';
+    src: url('Mundial-ThinItalic.woff2') format('woff2'),
+        url('Mundial-ThinItalic.woff') format('woff'),
+        url('Mundial-ThinItalic.svg#Mundial-ThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mundial';
+    src: url('Mundial-Black.woff2') format('woff2'),
+        url('Mundial-Black.woff') format('woff'),
+        url('Mundial-Black.svg#Mundial-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mundial';
+    src: url('Mundial-Bold.woff2') format('woff2'),
+        url('Mundial-Bold.woff') format('woff'),
+        url('Mundial-Bold.svg#Mundial-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mundial';
+    src: url('Mundial-BoldItalic.woff2') format('woff2'),
+        url('Mundial-BoldItalic.woff') format('woff'),
+        url('Mundial-BoldItalic.svg#Mundial-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mundial';
+    src: url('Mundial-BlackItalic.woff2') format('woff2'),
+        url('Mundial-BlackItalic.woff') format('woff'),
+        url('Mundial-BlackItalic.svg#Mundial-BlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
