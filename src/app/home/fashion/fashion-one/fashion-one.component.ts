@@ -32,30 +32,31 @@ export class FashionOneComponent implements OnInit {
   public ProductSliderConfig: any = ProductSlider;
 
   public sliders = [{
-    title: 'welcome to fashion',
-    subTitle: 'Men fashion',
-    image: 'assets/images/slider/1.jpg'
-  }, {
-    title: 'welcome to fashion',
-    subTitle: 'Women fashion',
-    image: 'assets/images/slider/2.jpg'
-  }]
+    title: '',
+    subTitle: '',
+    image: 'assets/images/icon/landing.png'
+  },
+  {
+    title: 'welcome to Corporativo Dragon Trade',
+    subTitle: 'Aires Acondicionados',
+    image: 'assets/images/icon/logo_GREE.svg'
+  },]
   
   // services
   public categories = [{
-    image: 'assets/images/categories/6.jpg',
+    image: 'assets/images/categories/control.png',
     title: 'auto parts',
     text:  this._sanitizer.bypassSecurityTrustHtml('<li><a href="#">Shock-resistant parts</a></li><li><a href="#">Skeleton parts</a></li><li><a href="#">Slow parts</a></li><li><a href="#">Solar-powered parts</a></li>'),
   }, {
-    image: 'assets/images/categories/7.jpg',
+    image: 'assets/images/categories/minisplit.png',
     title: 'brakes & steering',
     text:  this._sanitizer.bypassSecurityTrustHtml('<li><a href="#">Shock-resistant parts</a></li><li><a href="#">Skeleton parts</a></li><li><a href="#">Slow parts</a></li><li><a href="#">Solar-powered parts</a></li>'),
   }, {
-    image: 'assets/images/categories/8.jpg',
+    image: 'assets/images/categories/paquetes.png',
     title: 'engine & drivetrain',
     text:  this._sanitizer.bypassSecurityTrustHtml('<li><a href="#">Shock-resistant parts</a></li><li><a href="#">Skeleton parts</a></li><li><a href="#">Slow parts</a></li><li><a href="#">Solar-powered parts</a></li>'),
   }, {
-    image: 'assets/images/categories/9.jpg',
+    image: 'assets/images/categories/minisplit.png',
     title: 'exterior accesories',
     text:  this._sanitizer.bypassSecurityTrustHtml('<li><a href="#">Shock-resistant parts</a></li><li><a href="#">Skeleton parts</a></li><li><a href="#">Slow parts</a></li><li><a href="#">Solar-powered parts</a></li>'),
   }, {
