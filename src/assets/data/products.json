@@ -1,6 +1,6 @@
 [{
         "id": 1,
-        "title": "trim dress",
+        "title": "trim dresss",
         "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
         "type": "fashion",
         "brand": "nike",
@@ -81,7 +81,7 @@
                 "image_id": 111,
                 "id": 1,
                 "alt": "yellow",
-                "src": "assets/images/product/fashion/39.jpg",
+                "src": "assets/images/product/fashion/cas.jpg",
                 "variant_id": [
                     101,
                     104
@@ -207,7 +207,7 @@
                 "image_id": 211,
                 "id": 2,
                 "alt": "olive",
-                "src": "assets/images/product/fashion/3.jpg",
+                "src": "assets/images/product/fashion/cua.jpg",
                 "variant_id": [
                     201,
                     204,
@@ -304,7 +304,7 @@
                 "image_id": 311,
                 "id": 3,
                 "alt": "white",
-                "src": "assets/images/product/fashion/1.jpg",
+                "src": "assets/images/product/fashion/edi.jpg",
                 "variant_id": [
                     301,
                     303
@@ -378,7 +378,7 @@
                 "image_id": 411,
                 "id": 4,
                 "alt": "white",
-                "src": "assets/images/product/fashion/8.jpg",
+                "src": "assets/images/product/fashion/hil.jpg",
                 "variant_id": [
                     401,
                     402
@@ -388,7 +388,7 @@
                 "image_id": 412,
                 "id": 4,
                 "alt": "skyblue",
-                "src": "assets/images/product/fashion/7.jpg",
+                "src": "assets/images/product/fashion/cas.jpg",
                 "variant_id": [
                     403,
                     404

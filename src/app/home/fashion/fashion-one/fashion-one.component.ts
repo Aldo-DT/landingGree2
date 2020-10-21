@@ -34,7 +34,7 @@ export class FashionOneComponent implements OnInit {
   public sliders = [{
     title: '',
     subTitle: '',
-    image: 'assets/images/icon/landing.png'
+    image: 'assets/images/icon/landing1.png'
   },
   {
     title: 'welcome to Corporativo Dragon Trade',
