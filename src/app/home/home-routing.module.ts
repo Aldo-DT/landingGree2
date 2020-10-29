@@ -16,6 +16,7 @@ import { ToolsComponent } from './tools/tools.component';
 import { ShoesComponent } from './shoes/shoes.component';
 import { BagsComponent } from './bags/bags.component';
 import { MarijuanaComponent } from './marijuana/marijuana.component';
+import { LandingComponent } from './landing/landing.component';
 
 const routes: Routes = [
   {
@@ -77,7 +78,11 @@ const routes: Routes = [
   {
     path: 'marijuana',
     component: MarijuanaComponent
-  }
+  },
+  {
+    path: 'landing',
+    component: LandingComponent
+ }
 ];
 
 @NgModule({

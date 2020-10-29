@@ -18,6 +18,7 @@ import { ToolsComponent } from './tools/tools.component';
 import { ShoesComponent } from './shoes/shoes.component';
 import { BagsComponent } from './bags/bags.component';
 import { MarijuanaComponent } from './marijuana/marijuana.component';
+import { LandingComponent } from './landing/landing.component';
 
 // Widgest Components
 import { SliderComponent } from './widgets/slider/slider.component';
@@ -26,6 +27,7 @@ import { LogoComponent } from './widgets/logo/logo.component';
 import { InstagramComponent } from './widgets/instagram/instagram.component';
 import { ServicesComponent } from './widgets/services/services.component';
 import { CollectionComponent } from './widgets/collection/collection.component';
+
 
 @NgModule({
   declarations: [
@@ -44,6 +46,7 @@ import { CollectionComponent } from './widgets/collection/collection.component';
     ShoesComponent,
      BagsComponent,
     MarijuanaComponent,
+    LandingComponent,
     // Widgest Components
     SliderComponent,
     BlogComponent,
