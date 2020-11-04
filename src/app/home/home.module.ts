@@ -19,6 +19,8 @@ import { ShoesComponent } from './shoes/shoes.component';
 import { BagsComponent } from './bags/bags.component';
 import { MarijuanaComponent } from './marijuana/marijuana.component';
 import { LandingComponent } from './landing/landing.component';
+import { GreeGlobalComponent } from './greeglobal/greeglobal.component';
+import { CodigosDeErrorComponent } from './codigosdeerror/codigosdeerror.component';
 
 // Widgest Components
 import { SliderComponent } from './widgets/slider/slider.component';
@@ -47,6 +49,8 @@ import { CollectionComponent } from './widgets/collection/collection.component';
      BagsComponent,
     MarijuanaComponent,
     LandingComponent,
+    CodigosDeErrorComponent,
+    GreeGlobalComponent,
     // Widgest Components
     SliderComponent,
     BlogComponent,

@@ -26,7 +26,7 @@ const routes: Routes = [
     loadChildren: () => import('./pages/pages.module').then(m => m.PagesModule) 
   },
   { 
-    path: 'elements', 
+    path: 'elements',
     component: ElementsComponent,
     loadChildren: () => import('./elements/elements.module').then(m => m.ElementsModule) },
   {

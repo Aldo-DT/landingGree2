@@ -1,15 +1,15 @@
 import { Component, OnInit } from '@angular/core';
-import { ProductSlider } from '../../../shared/data/slider';
-import { Product } from '../../../shared/classes/product';
-import { ProductService } from '../../../shared/services/product.service';
+import { ProductSlider } from '../../shared/data/slider';
+import { Product } from '../../shared/classes/product';
+import { ProductService } from '../../shared/services/product.service';
 import { DomSanitizer } from '@angular/platform-browser';
 
 @Component({
-  selector: 'app-fashion-one',
-  templateUrl: './fashion-one.component.html',
-  styleUrls: ['./fashion-one.component.scss']
+  selector: 'app-greeglobal',
+  templateUrl: './greeglobal.component.html',
+  styleUrls: ['./greeglobal.component.scss']
 })
-export class FashionOneComponent implements OnInit {
+export class GreeGlobalComponent implements OnInit {
 
   public products: Product[] = [];
   public productCollections: any[] = [];
@@ -34,7 +34,7 @@ export class FashionOneComponent implements OnInit {
   public sliders = [{
     title: '',
     subTitle: '',
-    image: 'assets/images/icon/landing1.png'
+    image: 'assets/images/icon/greeglobal1.png'
   },
   {
     title: 'welcome to Corporativo Dragon Trade',
@@ -45,19 +45,19 @@ export class FashionOneComponent implements OnInit {
   // services
   public categories = [{
     image: 'assets/images/categories/control.png',
-    title: 'panel de control',
+    title: 'auto parts',
     text:  this._sanitizer.bypassSecurityTrustHtml('<li><a href="#">Shock-resistant parts</a></li><li><a href="#">Skeleton parts</a></li><li><a href="#">Slow parts</a></li><li><a href="#">Solar-powered parts</a></li>'),
   }, {
     image: 'assets/images/categories/minisplit.png',
-    title: 'minisplits',
+    title: 'brakes & steering',
     text:  this._sanitizer.bypassSecurityTrustHtml('<li><a href="#">Shock-resistant parts</a></li><li><a href="#">Skeleton parts</a></li><li><a href="#">Slow parts</a></li><li><a href="#">Solar-powered parts</a></li>'),
   }, {
     image: 'assets/images/categories/paquetes.png',
-    title: 'industriales',
+    title: 'engine & drivetrain',
     text:  this._sanitizer.bypassSecurityTrustHtml('<li><a href="#">Shock-resistant parts</a></li><li><a href="#">Skeleton parts</a></li><li><a href="#">Slow parts</a></li><li><a href="#">Solar-powered parts</a></li>'),
   }, {
     image: 'assets/images/categories/minisplit.png',
-    title: 'minisplits',
+    title: 'exterior accesories',
     text:  this._sanitizer.bypassSecurityTrustHtml('<li><a href="#">Shock-resistant parts</a></li><li><a href="#">Skeleton parts</a></li><li><a href="#">Slow parts</a></li><li><a href="#">Solar-powered parts</a></li>'),
   }, {
     image: 'assets/images/categories/10.jpg',

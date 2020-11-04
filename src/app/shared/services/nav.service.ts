@@ -132,14 +132,15 @@ export class NavService {
 				// 		{ path: 'http://themes.pixelstrap.com/multikart/front-end/email-template.html', title: 'email-template', type: 'extTabLink' },
 				// 		{ path: 'http://themes.pixelstrap.com/multikart/front-end/email-template-two.html', title: 'email-template-2', type: 'extTabLink' }
 				// 	]
-				}
+				},
+				{ path: '/home/codigosdeerror', title: 'Códigos de Error', type: 'link' },
 			]
 		},
 		{
 			title: 'GREE', type: 'sub', active: false, children: [
 				
-				{ path: '/home/landing', title: 'GREE Global', type: 'link' },
-				{ path: '/home/landing', title: 'GREE México', type: 'link' }
+				{ path: '/home/greeglobal', title: 'GREE Global', type: 'link' },
+				{ path: '/home/greeglobal', title: 'GREE México', type: 'link' }
 			
 				// {
 				// 	title: 'GREE Global', type: 'sub', active: false, children: [

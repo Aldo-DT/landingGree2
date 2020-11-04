@@ -32,7 +32,7 @@ import { GridFourComponent } from './portfolio/grid-four/grid-four.component';
 import { MasonryGridTwoComponent } from './portfolio/masonry-grid-two/masonry-grid-two.component';
 import { MasonryGridThreeComponent } from './portfolio/masonry-grid-three/masonry-grid-three.component';
 import { MasonryGridFourComponent } from './portfolio/masonry-grid-four/masonry-grid-four.component';
-import { MasonryFullWidthComponent } from './portfolio/masonry-full-width/masonry-full-width.component';
+import { MasonryFullWidthComponent } from './portfolio/masonry-full-width/masonry-full-width.component';//import { GreeGlobalComponent } from './greeglobal/greeglobal.component';
 
 const routes: Routes = [
   { 
