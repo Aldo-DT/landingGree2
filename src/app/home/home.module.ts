@@ -21,7 +21,7 @@ import { MarijuanaComponent } from './marijuana/marijuana.component';
 import { LandingComponent } from './landing/landing.component';
 import { GreeGlobalComponent } from './greeglobal/greeglobal.component';
 import { CodigosDeErrorComponent } from './codigosdeerror/codigosdeerror.component';
-
+// import {MatAccordionHarness} from '@angular/material/expansion/testing';
 // Widgest Components
 import { SliderComponent } from './widgets/slider/slider.component';
 import { BlogComponent } from './widgets/blog/blog.component';
@@ -62,7 +62,8 @@ import { CollectionComponent } from './widgets/collection/collection.component';
   imports: [
     CommonModule,
     HomeRoutingModule,
-    SharedModule
+    SharedModule,
+    // MatAccordionHarness
   ]
 })
 export class HomeModule { }

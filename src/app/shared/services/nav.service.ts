@@ -87,7 +87,7 @@ export class NavService {
 			]
 		},
 		{
-			title: 'SOPORTE', type: 'sub', megaMenu: true, badge: true, badgeText: 'new', active: false, children: [
+			title: 'SOPORTE', type: 'sub', badge: true, badgeText: 'new', active: false, children: [ //megaMenu: true
 				 {
 				// 	title: 'portfolio', type: 'sub', active: false, children: [
 				// 		{ path: '/pages/portfolio/grid/two', title: 'portfolio-grid-2', type: 'link' },

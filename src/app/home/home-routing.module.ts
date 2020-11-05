@@ -18,7 +18,7 @@ import { BagsComponent } from './bags/bags.component';
 import { MarijuanaComponent } from './marijuana/marijuana.component';
 import { LandingComponent } from './landing/landing.component';
 import { GreeGlobalComponent } from './greeglobal/greeglobal.component';
-
+import { CodigosDeErrorComponent } from './codigosdeerror/codigosdeerror.component';
 
 const routes: Routes = [
   {
@@ -84,6 +84,10 @@ const routes: Routes = [
   {
     path: 'greeglobal',
     component: GreeGlobalComponent
+  },
+  {
+    path: 'codigosdeerror',
+    component: CodigosDeErrorComponent
   },
   {
     path: 'landing',
