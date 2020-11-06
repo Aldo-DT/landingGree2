@@ -61,7 +61,6 @@ import { DistribuidoresComponent } from './distribuidores/distribuidores.compone
     CollectionComponent,
     GreemexicoComponent,
     DistribuidoresComponent
-    
   ],
   imports: [
     CommonModule,

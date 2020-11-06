@@ -18,6 +18,7 @@ export class DistribuidoresComponent implements OnInit {
 
   public products: Product[] = [];
   public productCollections: any[] = [];
+  public breadcrum: any[] = [];
 
   constructor(private _sanitizer:DomSanitizer,
     public productService: ProductService) {
