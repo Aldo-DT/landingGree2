@@ -5,11 +5,11 @@ import { ProductService } from '../../shared/services/product.service';
 import { DomSanitizer } from '@angular/platform-browser';
 
 @Component({
-  selector: 'app-greeglobal',
-  templateUrl: './greeglobal.component.html',
-  styleUrls: ['./greeglobal.component.scss']
+  selector: 'app-greemexico',
+  templateUrl: './greemexico.component.html',
+  styleUrls: ['./greemexico.component.scss']
 })
-export class GreeGlobalComponent implements OnInit {
+export class GreemexicoComponent implements OnInit {
 
   public products: Product[] = [];
   public productCollections: any[] = [];
@@ -34,7 +34,7 @@ export class GreeGlobalComponent implements OnInit {
   public sliders = [{
     title: '',
     subTitle: '',
-    image: 'assets/images/icon/minisplit.png'
+    image: 'assets/images/icon/greemexico.png'
   },
   {
     title: 'welcome to Corporativo Dragon Trade',

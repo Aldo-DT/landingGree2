@@ -73,6 +73,7 @@ export class NavService {
 		},
 		{
 			title: 'DISTRIBUIDORES', type: 'sub', active: false, children: [
+				{ path: '/home/distribuidores', title: 'Mapa', type: 'link' }
 				// {
 				// 	title: 'sidebar', type: 'sub', active: false, children: [
 				// 		{ path: '/shop/product/left/sidebar/trim-dress', title: 'left-sidebar', type: 'link' },
@@ -88,7 +89,8 @@ export class NavService {
 		},
 		{
 			title: 'SOPORTE', type: 'sub', badge: true, badgeText: 'new', active: false, children: [ //megaMenu: true
-				 {
+				{ path: '/home/codigosdeerror', title: 'Códigos de Error', type: 'link' }, 
+				{
 				// 	title: 'portfolio', type: 'sub', active: false, children: [
 				// 		{ path: '/pages/portfolio/grid/two', title: 'portfolio-grid-2', type: 'link' },
 				// 		{ path: '/pages/portfolio/grid/three', title: 'portfolio-grid-3', type: 'link' },
@@ -132,15 +134,15 @@ export class NavService {
 				// 		{ path: 'http://themes.pixelstrap.com/multikart/front-end/email-template.html', title: 'email-template', type: 'extTabLink' },
 				// 		{ path: 'http://themes.pixelstrap.com/multikart/front-end/email-template-two.html', title: 'email-template-2', type: 'extTabLink' }
 				// 	]
-				},
-				{ path: '/home/codigosdeerror', title: 'Códigos de Error', type: 'link' },
+				}
+				
 			]
 		},
 		{
 			title: 'GREE', type: 'sub', active: false, children: [
 				
 				{ path: '/home/greeglobal', title: 'GREE Global', type: 'link' },
-				{ path: '/home/greeglobal', title: 'GREE México', type: 'link' }
+				{ path: '/home/greemexico', title: 'GREE México', type: 'link' }
 			
 				// {
 				// 	title: 'GREE Global', type: 'sub', active: false, children: [

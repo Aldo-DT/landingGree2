@@ -1,0 +1,169 @@
+<app-header-one [sticky]="true"></app-header-one>
+
+<!-- Home slider start-->
+<section class="p-0">
+    <app-slider [sliders]="sliders" [textClass]="'text-center'" [category]="'fashion'" [buttonText]="'shop now'">
+    </app-slider>
+</section>
+
+
+
+<!-- category BAGS -->
+<div class="category-bg">
+    <div class="container-fluid p-0">
+        <div class="row order-section">
+            <div class="col-sm-4 p-0">
+                <a [routerLink]="['/shop/collection/left/sidebar']" [queryParams]="{ category: 'bags'}" class="image-block">
+                    <img src="assets/images/categories/minisplit.png" class="img-fluid" alt="">
+                </a>
+            </div>
+            <div class="col-sm-4 p-0">
+                <div class="contain-block even">
+                    <div>
+                        <h6>new products</h6>
+                        <a [routerLink]="['/shop/collection/left/sidebar']" [queryParams]="{ category: 'bags'}">
+                            <h2>AIRE GREE </h2>
+                        </a>
+                        <a [routerLink]="['/shop/collection/left/sidebar']" [queryParams]="{ category: 'bags'}" class="btn btn-solid category-btn">
+                        -80% off
+                      </a>
+                        <a [routerLink]="['/shop/collection/left/sidebar']" [queryParams]="{ category: 'bags'}">
+                            <h6><span>shop now</span></h6>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 p-0">
+                <a [routerLink]="['/shop/collection/left/sidebar']" [queryParams]="{ category: 'bags'}" class="image-block">
+                    <img src="assets/images/categories/control.png" class="img-fluid" alt="">
+                </a>
+            </div>
+            <div class="col-sm-4 p-0">
+                <div class="contain-block">
+                    <div>
+                        <h6>on sale</h6>
+                        <a [routerLink]="['/shop/collection/left/sidebar']" [queryParams]="{ category: 'bags'}">
+                            <h2>MINISPLITS</h2>
+                        </a>
+                        <a [routerLink]="['/shop/collection/left/sidebar']" [queryParams]="{ category: 'bags'}" class="btn btn-solid category-btn">
+                          save 30% off
+                      </a>
+                        <a [routerLink]="['/shop/collection/left/sidebar']" [queryParams]="{ category: 'bags'}">
+                            <h6><span>shop now</span></h6>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 p-0">
+                <a [routerLink]="['/shop/collection/left/sidebar']" [queryParams]="{ category: 'bags'}" class="image-block even">
+                    <img src="assets/images/categories/paquetes.png" class="img-fluid" alt="">
+                </a>
+            </div>
+            <div class="col-sm-4 p-0">
+                <div class="contain-block">
+                    <div>
+                        <h6>summer sale</h6>
+                        <a [routerLink]="['/shop/collection/left/sidebar']" [queryParams]="{ category: 'bags'}">
+                            <h2>PAQUETES</h2>
+                        </a>
+                        <a [routerLink]="['/shop/collection/left/sidebar']" [queryParams]="{ category: 'bags'}" class="btn btn-solid category-btn">
+                          minimum 50% off
+                      </a>
+                        <a [routerLink]="['/shop/collection/left/sidebar']" [queryParams]="{ category: 'bags'}">
+                            <h6><span>shop now</span></h6>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- about section start TOOLS -->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+                <div class="title3">
+                    <h2 class="title-inner3">welcome to tool store</h2>
+                    <div class="line"></div>
+                </div>
+                <div class="about-text">
+                    <p>
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
+                        sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- about section end-->
+
+<!-- category -->
+<section class="pt-0 category-tools">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <app-collection [class]="'pt-0'" [categories]="categories" [category]="'tools'">
+                </app-collection>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- category end -->
+
+<!-- Parallax banner start-->
+<section class="p-0">
+    <!-- imagen Parallax-->
+    <div class="full-banner parallax-banner1 parallax text-center p-left" [ngStyle]="{'background-image': 'url(assets/images/parallax/greeglobal1.png)'}">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="banner-contain">
+                        <h2></h2>
+                        <h3></h3>
+                        <h4></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Parallax banner End -->
+
+<!-- product slider start TOOLS-->
+<section class="section-b-space tools-grey">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="title3">
+                    <h2 class="title-inner3">Popular products</h2>
+                    <div class="line"></div>
+                </div>
+                <owl-carousel-o [options]="ProductSliderConfig" class="product-5 product-m no-arrow">
+                    <ng-container *ngFor="let product of products">
+                        <ng-template carouselSlide>
+                            <div class="product-box product-wrap">
+                                <app-product-box-three [product]="product" [currency]="productService?.Currency">
+                                </app-product-box-three>
+                            </div>
+                        </ng-template>
+                    </ng-container>
+                </owl-carousel-o>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- services start-->
+<div class="container">
+    <section class="service border-section small-section">
+        <app-services></app-services>
+    </section>
+</div>
+
+
+<app-newsletter></app-newsletter>
+<app-footer-one></app-footer-one>

@@ -29,7 +29,8 @@ import { LogoComponent } from './widgets/logo/logo.component';
 import { InstagramComponent } from './widgets/instagram/instagram.component';
 import { ServicesComponent } from './widgets/services/services.component';
 import { CollectionComponent } from './widgets/collection/collection.component';
-
+import { GreemexicoComponent } from './greemexico/greemexico.component';
+import { DistribuidoresComponent } from './distribuidores/distribuidores.component';
 
 @NgModule({
   declarations: [
@@ -57,12 +58,15 @@ import { CollectionComponent } from './widgets/collection/collection.component';
     LogoComponent,
     InstagramComponent,
     ServicesComponent,
-    CollectionComponent
+    CollectionComponent,
+    GreemexicoComponent,
+    DistribuidoresComponent
+    
   ],
   imports: [
     CommonModule,
     HomeRoutingModule,
-    SharedModule,
+    SharedModule
     // MatAccordionHarness
   ]
 })

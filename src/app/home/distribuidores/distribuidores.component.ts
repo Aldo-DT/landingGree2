@@ -4,12 +4,17 @@ import { Product } from '../../shared/classes/product';
 import { ProductService } from '../../shared/services/product.service';
 import { DomSanitizer } from '@angular/platform-browser';
 
+
 @Component({
-  selector: 'app-greeglobal',
-  templateUrl: './greeglobal.component.html',
-  styleUrls: ['./greeglobal.component.scss']
+  selector: 'app-distribuidores',
+  templateUrl: './distribuidores.component.html',
+  styleUrls: ['./distribuidores.component.scss']
 })
-export class GreeGlobalComponent implements OnInit {
+export class DistribuidoresComponent implements OnInit {
+  
+  // tslint:disable-next-line: semicolon
+
+  
 
   public products: Product[] = [];
   public productCollections: any[] = [];
@@ -31,6 +36,9 @@ export class GreeGlobalComponent implements OnInit {
 
   public ProductSliderConfig: any = ProductSlider;
 
+  
+
+  // tslint:disable-next-line: member-ordering
   public sliders = [{
     title: '',
     subTitle: '',
@@ -43,6 +51,7 @@ export class GreeGlobalComponent implements OnInit {
   },]
   
   // services
+  // tslint:disable-next-line: member-ordering
   public categories = [{
     image: 'assets/images/categories/control.png',
     title: 'auto parts',
@@ -67,6 +76,7 @@ export class GreeGlobalComponent implements OnInit {
 
 
   // Collection banner
+  // tslint:disable-next-line: member-ordering
   public collections = [{
     image: 'assets/images/collection/fashion/1.jpg',
     save: 'save 50%',
@@ -78,6 +88,7 @@ export class GreeGlobalComponent implements OnInit {
   }];
 
   // Blog
+  // tslint:disable-next-line: member-ordering
   public blog = [{
     image: 'assets/images/blog/1.jpg',
     date: '25 January 2018',
@@ -101,6 +112,7 @@ export class GreeGlobalComponent implements OnInit {
   }];
 
   // Logo
+  // tslint:disable-next-line: member-ordering
   public logo = [{
     image: 'assets/images/logos/1.png',
   }, {
@@ -120,6 +132,7 @@ export class GreeGlobalComponent implements OnInit {
   }];
 
   ngOnInit(): void {
+    
   }
 
   // Product Tab collection

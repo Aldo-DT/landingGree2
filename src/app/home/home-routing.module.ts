@@ -18,7 +18,9 @@ import { BagsComponent } from './bags/bags.component';
 import { MarijuanaComponent } from './marijuana/marijuana.component';
 import { LandingComponent } from './landing/landing.component';
 import { GreeGlobalComponent } from './greeglobal/greeglobal.component';
+import { GreemexicoComponent } from './greemexico/greemexico.component';
 import { CodigosDeErrorComponent } from './codigosdeerror/codigosdeerror.component';
+import { DistribuidoresComponent } from './distribuidores/distribuidores.component';
 
 const routes: Routes = [
   {
@@ -84,6 +86,14 @@ const routes: Routes = [
   {
     path: 'greeglobal',
     component: GreeGlobalComponent
+  },
+  {
+    path: 'greemexico',
+    component: GreemexicoComponent
+  },
+  {
+    path: 'distribuidores',
+    component: DistribuidoresComponent
   },
   {
     path: 'codigosdeerror',
