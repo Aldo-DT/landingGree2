@@ -21,6 +21,7 @@ import { GreeGlobalComponent } from './greeglobal/greeglobal.component';
 import { GreemexicoComponent } from './greemexico/greemexico.component';
 import { CodigosDeErrorComponent } from './codigosdeerror/codigosdeerror.component';
 import { DistribuidoresComponent } from './distribuidores/distribuidores.component';
+import { BeneficiosComponent } from './beneficios/beneficios.component';
 
 const routes: Routes = [
   {
@@ -98,6 +99,10 @@ const routes: Routes = [
   {
     path: 'codigosdeerror',
     component: CodigosDeErrorComponent
+  },
+  {
+    path: 'beneficios',
+    component: BeneficiosComponent
   },
   {
     path: 'landing',

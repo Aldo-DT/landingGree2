@@ -1,20 +1,15 @@
 import { Component, OnInit } from '@angular/core';
-import { ProductSlider } from '../../shared/data/slider';
-import { Product } from '../../shared/classes/product';
-import { ProductService } from '../../shared/services/product.service';
 import { DomSanitizer } from '@angular/platform-browser';
-
+import { Product } from 'src/app/shared/classes/product';
+import { ProductService } from 'src/app/shared/services/product.service';
+import { ProductSlider, TeamSlider, TestimonialSlider } from '../../shared/data/slider';
 
 @Component({
-  selector: 'app-distribuidores',
-  templateUrl: './distribuidores.component.html',
-  styleUrls: ['./distribuidores.component.scss']
+  selector: 'app-beneficios',
+  templateUrl: './beneficios.component.html',
+  styleUrls: ['./beneficios.component.scss']
 })
-export class DistribuidoresComponent implements OnInit {
-  
-  // tslint:disable-next-line: semicolon
-
-  
+export class BeneficiosComponent implements OnInit {
 
   public products: Product[] = [];
   public productCollections: any[] = [];

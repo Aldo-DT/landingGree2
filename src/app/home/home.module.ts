@@ -31,6 +31,7 @@ import { ServicesComponent } from './widgets/services/services.component';
 import { CollectionComponent } from './widgets/collection/collection.component';
 import { GreemexicoComponent } from './greemexico/greemexico.component';
 import { DistribuidoresComponent } from './distribuidores/distribuidores.component';
+import { BeneficiosComponent } from './beneficios/beneficios.component';
 
 @NgModule({
   declarations: [
@@ -60,7 +61,8 @@ import { DistribuidoresComponent } from './distribuidores/distribuidores.compone
     ServicesComponent,
     CollectionComponent,
     GreemexicoComponent,
-    DistribuidoresComponent
+    DistribuidoresComponent,
+    BeneficiosComponent
   ],
   imports: [
     CommonModule,

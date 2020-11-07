@@ -66,6 +66,7 @@ export class NavService {
 		},
 		{
 			title: 'BENEFICIOS', type: 'sub', active: false, children: [
+				{ path: '/home/beneficios', title: 'Beneficios', type: 'link' }
 				// { path: '/shop/collection/left/sidebar', title: 'left-sidebar', type: 'link' },
 				// { path: '/shop/collection/right/sidebar', title: 'right-sidebar', type: 'link' },
 				// { path: '/shop/collection/no/sidebar', title: 'no-sidebar', type: 'link' }
