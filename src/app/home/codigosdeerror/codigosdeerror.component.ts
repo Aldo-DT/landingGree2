@@ -14,7 +14,7 @@ export class CodigosDeErrorComponent implements OnInit {
   ngOnInit(): void {
       // download PDF
       const link = document.createElement('a');
-      link.setAttribute('target', '_blank');
+      link.setAttribute('target', '_self');
       link.setAttribute('href', '../../../assets/CODIGOS DE ERROR GREE (10).pdf');
       link.setAttribute('download', '../../../assets/CODIGOS DE ERROR GREE (10).pdf');
       document.body.appendChild(link);

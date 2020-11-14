@@ -13,6 +13,7 @@ export class BeneficiosComponent implements OnInit {
 
   public products: Product[] = [];
   public productCollections: any[] = [];
+  public TestimonialSliderConfig: any = TestimonialSlider;
   //public breadcrum: any[] = [];
 
   constructor(private _sanitizer:DomSanitizer,
@@ -31,6 +32,38 @@ export class BeneficiosComponent implements OnInit {
   
 
   public ProductSliderConfig: any = ProductSlider;
+
+  public testimonial = [{
+    image: 'assets/images/testimonial/beneficios1.png',
+    name: 'iFEEL – Control Remoto Inteligente',
+    description: 'Esta tecnología permite al usuario disfrutar de la temperatura real en su ubicación de la habitación. Al iniciar la función iFeel se activa un termostato interno que está en el Control Remoto Inteligente y se desactiva el termostato de la unidad. Por lo que en el momento en que la temperatura de la habitación aumenta o baja más de lo deseado por el usuario, el Control Remoto Inteligente se activará regulando la temperatura a un metro alrededor del Control Remoto Inteligente, hasta que esta llegue a la que el usuario ha indicado, y garantizamos que en donde se encuentre de la habitación el usario siempre disfrutará de la temperatura deseada.',
+  }, {
+    image: 'assets/images/testimonial/beneficios2.png',
+    name: 'FILTROS PURE AIR',
+    description: 'Filtro de Carbono Activado – Elimina olores – El carbón activado puede absorber con eficacia humo, olores de mascotas y otros olores desagradables. Filtro Esterilización Biológica – Elimina olores y bacterias – Se pueden eliminar eficazmente las bacterias y se previenen y la prevención las causas de olores desagradables. Filtro Photocatalístico – Elimina olores, bacterias, y virus – Este filtro es capaz de oxidar completamente y degradar contaminantes orgánicos. Se pueden eliminar eficazmente 99.9% de las bacterias, virus y olores desagradables. *Aditamentos que se venden por separado',
+  }, {
+    image: 'assets/images/testimonial/beneficios3.png',
+    name: '20% MAYOR FLUJO DE AIRE',
+    description: 'Nuestros modelos cuentan con la modalidad X-FAN, que ayuda a incrementar hasta 20% mas el flujo de aire maximizando los tiempos de enfriamiento y temperatura ideal.',
+  }, {
+    image: 'assets/images/testimonial/beneficios4.png',
+    name: 'TECNOLOGÍA INVERTER',
+    description: 'Nuestros modelos INVERTER 16 SEER cuenta con la novedosa tecnología inverter, que regula la velocidad del compresor para proveer los parámetros de enfriamiento deseados. Esta tecnología utilizada logra ahorra hasta un 60% mas, adicional a lograr niveles de enfria',
+  }, {
+    image: 'assets/images/testimonial/beneficios5.png',
+    name: 'R410A – GAS REFRIGERANTE ECOLÓGICO',
+    description: 'Nuestros modelos INVERTER 16 SEER, cuentan con gas refrigerante ecológico R410a. Es un gas refrigerante eco-amigable que empieza a ser utilizado a nivel mundial y viene a reemplazar al R22.',
+  }, {
+    image: 'assets/images/testimonial/beneficios6.png',
+    name: '25% MAYOR AHORRO',
+    description: 'El Ahorro en tu hogar es muy importante para Gree. Todos nuestros productos te ofrecen un ahorro considerable.',
+  }, {
+    image: 'assets/images/testimonial/beneficios7.png',
+    name: '60% MAYOR AHORRO',
+    // designation: 'Lead Developer',
+    description: 'Con nuestros modelos INVERTER 16 SEER, ahorra hasta un 60% más. Nuestra novedosa tecnología inverter aumenta la eficiencia y desempeño hasta un 60% más.',
+  }
+]
 
   
 

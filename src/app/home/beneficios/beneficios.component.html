@@ -1,6 +1,6 @@
 <app-header-one [sticky]="true"></app-header-one>
 
-<app-breadcrumb [title]="'Nuestros Distribuidores'" [breadcrumb]="'Distribuidores'"></app-breadcrumb>
+<app-breadcrumb [title]="'Beneficios'" [breadcrumb]="'Beneficios'"></app-breadcrumb>
 
 <!-- about section start -->
 <section class="about-page  section-b-space">
@@ -11,14 +11,53 @@
                     <img src="assets/images/icon/beneficios.png" class="img-fluid" alt="" />
                 </div>
             </div>
+            <style>
+                h1 {
+                    text-align: center;
+                    padding-top: 20px;
+                }
+                
+                p {
+                    text-align: center;
+                    padding-bottom: 20px;
+                }
+            </style>
             <div class="col-sm-12">
-                <h1></h1>
-                <p>GREE cuenta con más de 20 centros de distribución autorizados en la república mexicana. Tijuana, Mexicali, La Paz, Cabo San Lucas, Hermosillo, Los Mochis, Mazatlán, Culiacán, Aguascalientes, Guadalajara, Guanajuato, Acapulco, Reynosa,
-                    Monterrey, Veracruz, Distrito Federal, Villahermosa, Chiapas, Merida, Cancún, Lázaro Cárdenas entre otras.</p>
+                <h1>¿PORQUÉ USAR GREE?</h1>
+                <p>En Gree estamos muy al pendiente de nuestro medio ambiente y la economía familiar. Es por eso, que nuestros productos, son diseñados pensando en mantener una estabilidad en tu bolsillo y al mismo tiempo, al cuidado de nuestro planeta.</p>
             </div>
         </div>
     </div>
 </section>
+
+<!--Testimonial start-->
+<section class="testimonial small-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <owl-carousel-o class="slide-2 testimonial-slider no-arrow" [options]="TestimonialSliderConfig">
+                    <ng-container *ngFor="let ts of testimonial">
+                        <ng-template carouselSlide>
+                            <div>
+                                <div class="media">
+                                    <div class="text-center">
+                                        <img [src]="ts.image" alt="image">
+                                        <h5>{{ts.name}}</h5>
+                                        <!-- <h6>{{ts.designation}}</h6> -->
+                                    </div>
+                                    <div class="media-body">
+                                        <p>{{ts.description}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </ng-template>
+                    </ng-container>
+                </owl-carousel-o>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Testimonial ends-->
 <!-- about section end -->
 
 <!-- Home slider start-->
