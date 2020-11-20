@@ -5572,10 +5572,13 @@ footer {
                 margin-top: 7px;
             }
             .media-body {
+                //por mientras chico y centrado
                 padding: 30px 75px 30px 30px;
                 p {
-                    line-height: 2;
-                    letter-spacing: 0.03em;
+                    text-align: start;
+                    font-weight: 300;
+                    margin-bottom: 0;
+                    margin-top: 7px;
                 }
             }
         }
@@ -5587,6 +5590,41 @@ footer {
                         padding-left: 50px;
                     }
                 }
+            }
+        }
+    }
+    .media-testimonial {
+        //padding: 10px;
+        display: flex; // uno al lado del otro
+        flex-flow: wrap; // si no cabe, se baja
+        //flex: 1 1 100%; // abarque el 100%
+        // se ocupaba un media por fuera
+        img {
+            border-radius: 100%;
+            border: 1px solid $round-border;
+            padding: 5px;
+            height: 260px;
+            width: 260px;
+        }
+        h5 {
+            font-weight: 800;
+            color: var(--theme-deafult);
+            margin-bottom: 0;
+            margin-top: 7px;
+        }
+        .media-body {
+            margin-bottom: 50px;
+            //por mientras chico y centrado
+            padding: 30px 75px 30px 30px;
+            p {
+                // display: flex;
+                // flex-flow: column nowrap;
+                // flex:1 1 auto;
+                text-align: justify;
+                font-weight: 500;
+                margin-bottom: 0;
+                margin-top: 7px;
+                width: 800px;
             }
         }
     }

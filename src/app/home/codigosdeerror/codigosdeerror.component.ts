@@ -22,10 +22,11 @@ export class CodigosDeErrorComponent implements OnInit {
       link.remove();
       
       // Closes blank window
-      window.open("about:blank", "_self");
-      window.close();
+      window.history.back();
     
   
   }
+
+  
 
 }
